@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap');
+
+$font-family-sans-serif:'League Spartan', sans-serif;
+
+$primary: hsl(300, 43%, 22%);
+$secondary: hsl(303, 10%, 53%);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.header-width{
+    width: 75%;
+}
+
+.text-color{
+    color: $primary;
+}
+
+.text-color-two{
+    color: $secondary;
+}
+
+.header-one{
+    letter-spacing: -2px;
+}
+
+.img-size{
+    height: 14px;
+    width: 14px;
+}
+
+.img-border{
+    background-color:  hsl(300, 24%, 96%);
+}
+
+.text-color-three{
+    color:hsl(333, 80%, 67%);
+}
+
+// .text-size{
+//     font-size: ;
+// }
